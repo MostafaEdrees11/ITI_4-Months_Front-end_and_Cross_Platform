@@ -12,5 +12,5 @@
 | **Day 06** | Client Side Technologies | JavaScript (JS) | 🏫 Offline |
 | **Day 07** | Client Side Technologies | JavaScript (JS) | 🏫 Offline |
 | **Day 08** | Client Side Technologies | JavaScript (JS) | 🏫 Offline |
-| **Day 09** | Client Side Technologies | JavaScript (JS) | 🏫 Online |
-| **Day 10** | Client Side Technologies | JavaScript (JS) | 🏫 Online |
+| **Day 09** | Client Side Technologies | JavaScript (JS) | 💻 Online XX |
+| **Day 10** | Client Side Technologies | JavaScript (JS) | 💻 Online |
