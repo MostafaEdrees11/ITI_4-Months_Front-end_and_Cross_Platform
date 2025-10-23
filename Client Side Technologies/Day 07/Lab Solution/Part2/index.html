@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Lab Part2</title>
+
+    <style>
+      table {
+        padding: 5px;
+        margin: 10px;
+      }
+
+      th,
+      td {
+        border: 2px solid black;
+        padding: 5px;
+      }
+
+      th {
+        background-color: gray;
+        color: white;
+        font: 25px bold tahoma;
+      }
+
+      td {
+        background-color: lightgreen;
+        color: black;
+        font: 15px Arial;
+        text-align: center;
+      }
+
+      label {
+        padding: 5px;
+        margin: 20px;
+        background-color: black;
+        color: white;
+        font-size: 20px;
+      }
+
+      #sorting {
+        padding: 5px;
+        margin: 20px;
+        background-color: grey;
+        color: white;
+        font: 20px bold;
+      }
+
+      option {
+        background-color: skyblue;
+      }
+    </style>
+  </head>
+  <body>
+    <table>
+      <tr>
+        <th>Name</th>
+        <th>Age</th>
+        <th>Course</th>
+      </tr>
+    </table>
+
+    <hr />
+    <br />
+
+    <label for="search">Search By Name or Course</label>
+    <input type="text" id="search" name="search" />
+
+    <br />
+    <br />
+    <hr />
+
+    <select name="sortStudents" id="sorting">
+      <option value="no">Select sort parameter:</option>
+      <option value="Age">By Age</option>
+      <option value="Name">By Name</option>
+    </select>
+
+    <script src="script.js"></script>
+  </body>
+</html>
