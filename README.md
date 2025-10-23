@@ -3,7 +3,7 @@
 ## 🕒 Timeline
 
 | **Day** | **Topic** | **Details** | **Mode** | **Date** |
-|:-------:|:---------------------------------------------|:-----------------|:-----------:||:-------------:|
+|:-------:|:---------------------------------------------|:-----------------|:-----------:|:-------------:|
 | **Day 01** | Client Side Technologies | HTML | 🏫 Offline | 12-Oct-2025 |
 | **Day 02** | Client Side Technologies | HTML | 🏫 Offline | 13-Oct-2025 |
 | **Day 03** | Effective Communication Skills | — | 🏫 Offline | 14-Oct-2025 |
