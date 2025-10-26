@@ -14,3 +14,4 @@
 | **Day 08** | Client Side Technologies | JavaScript (JS) | 🏫 Offline | 21-Oct-2025 |
 | **Day 09** | — | — | XX | 22-Oct-2025 |
 | **Day 10** | Client Side Technologies | JavaScript (JS) | 💻 Online | 23-Oct-2025 |
+| **Day 11** | Client Side Technologies | JavaScript (JS) | 💻 Online | 26-Oct-2025 |
