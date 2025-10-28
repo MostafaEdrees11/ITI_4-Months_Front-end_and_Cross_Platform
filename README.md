@@ -15,3 +15,4 @@
 | **Day 09** | — | — | XX | 22-Oct-2025 |
 | **Day 10** | Client Side Technologies | JavaScript (JS) | 💻 Online | 23-Oct-2025 |
 | **Day 11** | Client Side Technologies | JavaScript (JS) | 💻 Online | 26-Oct-2025 |
+| **Day 12** | Network and Security Workshop | Network | 🏫 Offline | 27-Oct-2025 |
