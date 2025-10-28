@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TODO List App</title>
+
+    <style>
+      #new-task,
+      #add,
+      #tasks-list {
+        padding: 7px;
+      }
+
+      #add {
+        background-color: green;
+        color: white;
+        margin: 10px 10px 10px 0px;
+        font: bold 16px tahmo;
+      }
+
+      #new-task {
+        margin: 10px 0px 10px 10px;
+      }
+
+      #error-label {
+        color: red;
+        font: italic 20px tahmo;
+      }
+
+      ul {
+        list-style: none;
+      }
+
+      div {
+        width: max-content;
+        border: 1px solid black;
+        padding: 5px;
+        margin: 5px;
+      }
+
+      li {
+        display: inline-block;
+        margin: 5px;
+        width: 150px;
+        padding: 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <input
+      type="text"
+      name="new-task"
+      id="new-task"
+      placeholder="Add a new task..."
+    />
+    <label for="new-task" id="add">Add</label>
+    <label id="error-label"></label>
+
+    <ul id="tasks-list"></ul>
+
+    <script src="script.js"></script>
+  </body>
+</html>
