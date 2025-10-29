@@ -17,3 +17,4 @@
 | **Day 11** | Client Side Technologies | JavaScript (JS) | 💻 Online | 26-Oct-2025 |
 | **Day 12** | Network and Security Workshop | Network | 🏫 Offline | 27-Oct-2025 |
 | **Day 13** | Network and Security Workshop | Network | 💻 Online | 28-Oct-2025 |
+| **Day 14** | JQuery | JQuery | 💻 Online | 29-Oct-2025 |
