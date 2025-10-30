@@ -1,0 +1,9 @@
+#container {
+    height: 100px;
+    position: relative;
+}
+
+#tiger {
+    position: absolute;
+    right: 0;
+}
