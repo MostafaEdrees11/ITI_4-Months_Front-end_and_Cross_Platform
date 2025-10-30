@@ -1,0 +1,10 @@
+.mouse-overed {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+}
+
+.toggeled-class {
+    width: 200px;
+    background-color: red;
+}
