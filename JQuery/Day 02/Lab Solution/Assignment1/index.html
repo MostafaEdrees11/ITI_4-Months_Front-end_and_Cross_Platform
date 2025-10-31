@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Main Window</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <h2>Main Page</h2>
+    <button id="login-btn">Login</button>
+    <div id="blanket"></div>
+
+    <div id="login-window">
+        <h3>Login Form</h3>
+        <form action="" id="login-form">
+            <label for="userName">User Name:</label>
+            <input type="text" name="user" id="userName" placeholder="Enter your name" required />
+
+            <br />
+
+            <label for="password">Password</label>
+            <input type="password" name="pass" id="password" placeholder="Enter your password" required />
+
+            <br />
+
+            <input type="checkbox" name="remember-pass" value="yes" id="remember-pass" />
+            <br />
+
+            <button type="submit">Login</button>
+            <button type="button" id="cancel-btn">Cancel</button>
+    </div>
+
+    <br>
+    <div id="login-state"></div>
+
+</body>
+
+</html>
