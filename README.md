@@ -19,4 +19,5 @@
 | **Day 13** | Network and Security Workshop | Network | 💻 Online | 28-Oct-2025 |
 | **Day 14** | JQuery | JQuery | 💻 Online | 29-Oct-2025 |
 | **Day 15** | JQuery | JQuery | 💻 Online | 30-Oct-2025 |
-| **Day 15** | Advanced JS | Advanced JS | 💻 Online | 31-Oct-2025 |
+| **Day 16** | Advanced JS | Advanced JS | 💻 Online | 31-Oct-2025 |
+| **Day 17** | Advanced JS | Advanced JS | 💻 Online | 1-Nov-2025 |
