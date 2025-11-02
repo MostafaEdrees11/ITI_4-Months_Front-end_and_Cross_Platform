@@ -21,3 +21,4 @@
 | **Day 15** | JQuery | JQuery | 💻 Online | 30-Oct-2025 |
 | **Day 16** | Advanced JS | Advanced JS | 💻 Online | 31-Oct-2025 |
 | **Day 17** | Advanced JS | Advanced JS | 💻 Online | 1-Nov-2025 |
+| **Day 18** | Advanced JS | Advanced JS | 💻 Online | 2-Nov-2025 |
