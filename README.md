@@ -23,3 +23,4 @@
 | **Day 17** | Advanced JS | Advanced JS | 💻 Online | 1-Nov-2025 |
 | **Day 18** | Advanced JS | Advanced JS | 💻 Online | 2-Nov-2025 |
 | **Day 19** | Database Workshop | Database Workshop | 💻 Online | 3-Nov-2025 |
+| **Day 20** | Database Workshop | Database Workshop | 👨‍🏫 Self-Study | 4-Nov-2025 |
