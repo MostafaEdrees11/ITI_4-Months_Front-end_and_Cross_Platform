@@ -12,7 +12,7 @@
 | **Day 06** | Client Side Technologies | JavaScript (JS) | 🏫 Offline | 19-Oct-2025 |
 | **Day 07** | Client Side Technologies | JavaScript (JS) | 🏫 Offline | 20-Oct-2025 |
 | **Day 08** | Client Side Technologies | JavaScript (JS) | 🏫 Offline | 21-Oct-2025 |
-| **Day 09** | — | — | XX | 22-Oct-2025 |
+| **Day 09** | — | — | ❎❎❎ | 22-Oct-2025 |
 | **Day 10** | Client Side Technologies | JavaScript (JS) | 💻 Online | 23-Oct-2025 |
 | **Day 11** | Client Side Technologies | JavaScript (JS) | 💻 Online | 26-Oct-2025 |
 | **Day 12** | Network and Security Workshop | Network | 🏫 Offline | 27-Oct-2025 |
@@ -25,3 +25,4 @@
 | **Day 19** | Database Workshop | Database Workshop | 💻 Online | 3-Nov-2025 |
 | **Day 20** | Database Workshop | Database Workshop | 👨‍🏫 Self-Study | 4-Nov-2025 |
 | **Day 21** | ECMA Script Next | ES Next | 💻 Online | 5-Nov-2025 |
+| **Day 22** | — | — | ❎❎❎ | 6-Nov-2025 |
