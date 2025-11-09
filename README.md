@@ -26,3 +26,5 @@
 | **Day 20** | Database Workshop | Database Workshop | 👨‍🏫 Self-Study | 4-Nov-2025 |
 | **Day 21** | ECMA Script Next | ES Next | 💻 Online | 5-Nov-2025 |
 | **Day 22** | — | — | ❎❎❎ | 6-Nov-2025 |
+| **Day 23** | SW Testing Workshop | SW Testing Workshop | 💻 Online | 8-Nov-2025 |
+| **Day 24** | ECMA Script Next | ES Next | 💻 Online | 9-Nov-2025 |
