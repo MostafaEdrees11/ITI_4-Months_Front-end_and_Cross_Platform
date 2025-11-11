@@ -29,3 +29,4 @@
 | **Day 23** | SW Testing Workshop | SW Testing Workshop | 💻 Online | 8-Nov-2025 |
 | **Day 24** | ECMA Script Next | ES Next | 💻 Online | 9-Nov-2025 |
 | **Day 25** | ECMA Script Next | ES Next | 💻 Online | 10-Nov-2025 |
+| **Day 26** | HTML5 & CSS3 | Flex Box | 🏫 Offline | 11-Nov-2025 |
