@@ -1,0 +1,41 @@
+h1 {
+    color: white;
+    background-color: blue;
+    text-align: center;
+    width: 500px;
+    margin: auto;
+}
+
+#car-container, #bike-container {
+    position: relative;
+    margin: 50px 10px;
+    background-color: lightgray;
+    height: 100px;
+}
+
+#car, #bike {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+}
+
+#btns {
+    text-align: center;
+}
+
+#start, #stop {
+    padding: 5px;
+    font-size: 20px;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    position: sticky;
+}
+
+#start {
+    background-color: green;
+}
+
+#stop {
+    background-color: red;
+}
