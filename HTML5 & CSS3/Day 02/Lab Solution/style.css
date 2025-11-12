@@ -1,0 +1,118 @@
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas: 
+    "header header header header header"
+    "sidebar1 content content content sidebar2"
+    "footer footer footer footer footer";
+    margin: 10px;
+    gap: 8px;
+}
+
+.container .header {
+    grid-area: header;
+    background-color: green;
+    text-align: center;
+    padding: 10px;
+    font-size: 25px;
+    font-weight: bold;
+    border-radius: 10px;
+    color:white;
+}
+
+.container .sidebar1 {
+    grid-area: sidebar1;
+    background-color: greenyellow;
+    border-radius: 5px;
+}
+
+.container .sidebar2 {
+    grid-area: sidebar2;
+    background-color: lightgreen;
+    border-radius: 5px;
+}
+
+.container .content {
+    grid-area: content;
+}
+
+.container .footer {
+    grid-area: footer;
+    background-color: gray;
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+
+.container .header h1 {
+    text-align: center;
+}
+
+.container .sidebar1 ul {
+    list-style: none;
+}
+
+.container .sidebar1 ul li {
+    margin: 5px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.container .sidebar1 ul li:hover {
+    color: white;
+}
+
+
+.container .sidebar2 h3, .container .sidebar2 p {
+    padding: 5px;
+    margin: 5px;
+    text-align: center;
+}
+
+
+.content .post {
+    margin: 10px;
+    border: 1px solid black;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.content .post h3 {
+    color: blue;
+}
+
+.content .post:nth-child(even) {
+    background-color: lightcoral;
+}
+
+.content .post:nth-child(odd) {
+    background-color: lightpink;
+}
+
+
+
+
+
+@media screen and (max-width:600px) {
+    .container {
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+    "header"
+    "sidebar1"
+    "content"
+    "sidebar2"
+    "footer";
+    }
+
+    .container .sidebar1 ul {
+        display: flex;
+        gap: 15px;
+    }
+
+    .content .post {
+        text-align: center;
+    }
+}
