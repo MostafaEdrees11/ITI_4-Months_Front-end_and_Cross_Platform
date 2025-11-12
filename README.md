@@ -30,3 +30,4 @@
 | **Day 24** | ECMA Script Next | ES Next | 💻 Online | 9-Nov-2025 |
 | **Day 25** | ECMA Script Next | ES Next | 💻 Online | 10-Nov-2025 |
 | **Day 26** | HTML5 & CSS3 | Flex Box | 🏫 Offline | 11-Nov-2025 |
+| **Day 27** | HTML5 & CSS3 | Grid System | 🏫 Offline | 12-Nov-2025 |
