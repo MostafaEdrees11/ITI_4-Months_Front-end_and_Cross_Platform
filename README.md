@@ -33,3 +33,4 @@
 | **Day 27** | HTML5 & CSS3 | Grid System | 🏫 Offline | 12-Nov-2025 |
 | **Day 28** | Bootstrap | Bootstrap | 🏫 Offline | 13-Nov-2025 |
 | **Day 29** | Typescript | TS | 💻 Online | 14-Nov-2025 |
+| **Day 30** | HTML5 & CSS3 | HTML5 | 💻 Online | 15-Nov-2025 |
