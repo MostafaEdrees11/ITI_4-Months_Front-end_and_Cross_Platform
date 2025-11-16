@@ -34,3 +34,4 @@
 | **Day 28** | Bootstrap | Bootstrap | 🏫 Offline | 13-Nov-2025 |
 | **Day 29** | Typescript | TS | 💻 Online | 14-Nov-2025 |
 | **Day 30** | HTML5 & CSS3 | HTML5 | 💻 Online | 15-Nov-2025 |
+| **Day 31** | OS Workshop | Operating system | 💻 Online | 16-Nov-2025 |
