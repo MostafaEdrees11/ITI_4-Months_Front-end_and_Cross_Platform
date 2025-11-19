@@ -37,3 +37,4 @@
 | **Day 31** | OS Workshop | Operating system | 💻 Online | 16-Nov-2025 |
 | **Day 32** | — | — | ❎❎❎ | 17-Nov-2025 |
 | **Day 33** | Tailwind CSS | Tailwind CSS | 🏫 Offline | 18-Nov-2025 |
+| **Day 34** | Tailwind CSS | Tailwind CSS | 🏫 Offline | 19-Nov-2025 |
