@@ -38,3 +38,4 @@
 | **Day 32** | — | — | ❎❎❎ | 17-Nov-2025 |
 | **Day 33** | Tailwind CSS | Tailwind CSS | 🏫 Offline | 18-Nov-2025 |
 | **Day 34** | Tailwind CSS | Tailwind CSS | 🏫 Offline | 19-Nov-2025 |
+| **Day 35** | — | — | ❎❎❎ | 20-Nov-2025 |
