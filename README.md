@@ -39,3 +39,5 @@
 | **Day 33** | Tailwind CSS | Tailwind CSS | 🏫 Offline | 18-Nov-2025 |
 | **Day 34** | Tailwind CSS | Tailwind CSS | 🏫 Offline | 19-Nov-2025 |
 | **Day 35** | — | — | ❎❎❎ | 20-Nov-2025 |
+| **Day 36** | Agile Workshop | Scrum | 💻 Online | 21-Nov-2025 |
+| **Day 37** | SASS | SASS | 💻 Online | 22-Nov-2025 |
