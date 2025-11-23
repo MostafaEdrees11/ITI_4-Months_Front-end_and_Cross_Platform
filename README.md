@@ -41,3 +41,4 @@
 | **Day 35** | — | — | ❎❎❎ | 20-Nov-2025 |
 | **Day 36** | Agile Workshop | Scrum | 💻 Online | 21-Nov-2025 |
 | **Day 37** | SASS | SASS | 💻 Online | 22-Nov-2025 |
+| **Day 38** | JQuery | Recap JQuery | 💻 Online | 23-Nov-2025 |
