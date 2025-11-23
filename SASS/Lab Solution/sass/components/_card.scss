@@ -1,0 +1,24 @@
+.card {
+    width: $card-width;
+    border-radius: 16px;
+    border: 2px solid black;
+
+    .card-image {
+        img {
+            width: 100%;
+            border-radius: 12px
+        }
+    }
+
+    .card-content {
+    h3 {
+        color: $card-title-color;
+        @extend %padding-margin-base;
+    }
+
+    p {
+        color: $card-description-color;
+        @extend %padding-margin-base;
+    }
+}
+}

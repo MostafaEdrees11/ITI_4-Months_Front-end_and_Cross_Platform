@@ -1,0 +1,10 @@
+footer {
+    @extend %padding-margin-base;
+    @include header-footer-bg-color-mixin($light-color);
+    border-radius: 10px;
+    
+    p {
+        font-size: 20px;
+        text-align: center;
+    }
+}

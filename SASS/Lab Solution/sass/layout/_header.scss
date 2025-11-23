@@ -1,0 +1,51 @@
+@import "../abstract/variable";
+@import "../abstract/extend";
+
+
+.header {
+    @extend %padding-margin-base;
+    @include header-footer-bg-color-mixin($light-color);
+    @extend %flex-base;
+    border-radius: 10px;
+
+    div {
+        @extend %flex-base;
+        gap: 8px;
+
+        div {
+            width: 8rem;
+            img {
+                width: 100%;
+            }
+        }
+
+        h1 {
+            color: $secondary-color;
+            cursor: pointer;
+
+            &:hover {
+                color: $primary-color;
+            }
+        }
+    }
+
+    ul {
+        list-style: none;
+        @extend %flex-base;
+
+        li {
+            @extend %padding-margin-base;
+
+            a {
+                font-size: 25px;
+                text-decoration: none;
+                color: $red-dark-color;
+
+                &:hover {
+                    color: white;
+                    font-weight: bold;
+                }
+            }
+        }
+    }
+}

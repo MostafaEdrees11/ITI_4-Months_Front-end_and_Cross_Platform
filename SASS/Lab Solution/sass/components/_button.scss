@@ -1,0 +1,17 @@
+@import "../abstract/mixins.scss";
+
+.card-button {
+    @extend %padding-margin-base;
+    display: flex;
+    justify-content: flex-end;
+
+    button {
+        @extend %button-base;
+        @include card-button-mixin(white, blue);
+        // @include card-button-mixin(white, green);
+        
+        &:hover {
+            @include card-button-mixin(black, rgb(137, 137, 164));
+        }
+    }
+}

@@ -1,0 +1,27 @@
+// Extend (use sparingly)
+
+%padding-margin-base {
+    padding: 4px 8px;
+    margin: 2px 4px;
+}
+
+%flex-base {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 4px;
+}
+
+%grid-base {
+    display: grid;
+    grid-template-columns:  repeat(4, $card-width);
+    justify-content: center;
+    gap: 8px;
+}
+
+%button-base {
+    padding: 4px 8px;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 4px;
+}

@@ -1,0 +1,8 @@
+@mixin card-button-mixin($text-color, $btn-bg-color) {
+    color: $text-color;
+    background-color: $btn-bg-color;
+}
+
+@mixin header-footer-bg-color-mixin($bg-color) {
+    background-color: $bg-color;
+}
