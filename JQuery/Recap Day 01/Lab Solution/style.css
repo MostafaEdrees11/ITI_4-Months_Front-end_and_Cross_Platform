@@ -1,0 +1,86 @@
+.btns {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+}
+
+.btns button {
+    font-size: 30px;
+    padding: 8px;
+    color: white;
+    background-color: magenta;
+    border-radius: 8px;
+    font-family: monospace;
+    cursor: pointer;
+    height: 50px;
+}
+
+.container {
+    margin: 16px;
+    padding: 8px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 800px;
+    height: 500px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+
+.about-content {
+    text-align: center;
+    width: 300px;
+    height: 200px;
+    box-shadow: 0px 3px 12px 1px;
+    padding: 16px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#left-arrow, #right-arrow {
+    width: 50px;
+    cursor: pointer;
+}
+
+#gallary-imgs {
+    outline: 2px solid black;
+    border-radius: 4px;
+
+    width: 400px;
+    height: 300px;
+}
+
+.gallary-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 48px;
+}
+
+/* .services-content ul {
+    display: none;
+} */
+
+.services-content ul li {
+    padding: 8px 16px;
+    font-size: 20px;
+    background-color: rgb(214, 116, 132);
+    color: white;
+    margin: 4px;
+    border-radius: 4px;
+}
+
+.complain-content {
+    text-align: center;
+    width: 500px;
+    height: 400px;
+    box-shadow: 0px 3px 12px 1px;
+    padding: 16px;
+    font-size: 20px;
+}
+
+.complain-content label {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}

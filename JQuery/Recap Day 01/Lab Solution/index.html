@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JQuery Day01 Lab Solution</title>
+
+    <link rel="stylesheet" href="style.css" />
+
+    <script src="jquery-3.7.1.js"></script>
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <main>
+      <div class="btns">
+        <button id="about-btn">About</button>
+        <button id="gallary-btn">Gallary</button>
+        <!-- <button id="services-btn">Services</button> -->
+        <div>
+          <button id="services-btn">Services</button>
+          <div class="services-content">
+            <ul>
+              <li>Item #1</li>
+              <li>Item #2</li>
+              <li>Item #3</li>
+              <li>Item #4</li>
+            </ul>
+          </div>
+        </div>
+        <button id="complain-btn">Complain</button>
+      </div>
+
+      <div class="container">
+        <div class="about-content" value="about-content">
+          Story about snow man
+        </div>
+
+        <div class="gallary-content">
+          <img src="./assets/left.png" alt="" id="left-arrow" />
+          <img src="./assets/1.jpg" alt="" id="gallary-imgs" />
+          <img src="./assets/right.png" alt="" id="right-arrow" />
+        </div>
+
+        <!-- <div class="services-content">
+          <ul>
+            <li>Item #1</li>
+            <li>Item #2</li>
+            <li>Item #3</li>
+            <li>Item #4</li>
+          </ul>
+        </div> -->
+
+        <div class="complain-content">
+          <section id="complain-form">
+            <label for="name-input">Name</label>
+            <input type="text" id="name-input" />
+
+            <br /><br />
+
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email-input" />
+
+            <br /><br />
+
+            <label for="phone-input">Phone</label>
+            <input type="text" name="phone" id="phone-input" />
+
+            <br /><br />
+
+            <label for="complain-text">Complain</label>
+            <br />
+            <textarea
+              name="complain-text"
+              id="complain-text"
+              cols="40"
+              rows="10"
+            >
+my complain is....</textarea
+            >
+
+            <br /><br /><br />
+
+            <button id="send-complain">Send</button>
+          </section>
+
+          <section id="complain-data">
+            <p>Your complain is <span id="complain-txt"></span></p>
+            <p>Your name is <span id="complain-person-name"></span></p>
+            <p>Your email is <span id="complain-person-email"></span></p>
+            <p>Your phone is <span id="complain-person-phone"></span></p>
+
+            <br /><br /><br />
+
+            <button id="back-to-edit">Back to edit</button>
+          </section>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
