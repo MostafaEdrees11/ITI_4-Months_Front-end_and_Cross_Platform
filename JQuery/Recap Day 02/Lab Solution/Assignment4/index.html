@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Assignmen3</title>
+
+    <link rel="stylesheet" href="./jquery-ui.css" />
+
+    <script src="jquery-3.7.1.js"></script>
+    <script src="jquery-ui.js"></script>
+
+    <style>
+      #draggable {
+        width: 80px;
+        height: 100px;
+        float: left;
+        margin: 10px 10px 10px 0;
+      }
+      #droppable {
+        padding: 0.5em;
+        float: left;
+        margin: 10px;
+      }
+
+      #draggable img {
+        width: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="draggable" class="ui-widget-content">
+      <img src="./2.jpg" alt="" />
+    </div>
+
+    <div id="droppable" class="ui-widget-header">
+      <img src="./3.JPG" alt="" />
+    </div>
+
+    <script>
+      $(document).ready(function () {
+        $(function () {
+          $("#draggable").draggable();
+          $("#droppable").droppable({
+            drop: function (event, ui) {
+              $(this).addClass("ui-state-highlight");
+
+              $("#draggable").hide(1000);
+            },
+          });
+        });
+      });
+    </script>
+  </body>
+</html>

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Assignmen2</title>
+
+    <script src="jquery-3.7.1.js"></script>
+    <script src="jquery-ui.js"></script>
+    <script src="./skippr.js"></script>
+
+    <style>
+      #theTarget div {
+        width: 400px;
+        height: 300px;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="container">
+      <div id="theTarget">
+        <div style="background-image: url('./imgs/1.jpg')"></div>
+        <div style="background-image: url('./imgs/2.jpg')"></div>
+        <div style="background-image: url('./imgs/3.jpg')"></div>
+        <div style="background-image: url('./imgs/4.jpg')"></div>
+        <div style="background-image: url('./imgs/5.jpg')"></div>
+        <div style="background-image: url('./imgs/6.jpg')"></div>
+        <div style="background-image: url('./imgs/7.jpg')"></div>
+        <div style="background-image: url('./imgs/8.jpg')"></div>
+      </div>
+    </div>
+    <script>
+      $(document).ready(function () {
+        // Defaults
+        $("#theTarget").skippr({
+          transition: "slide",
+          speed: 2000,
+          // easing: "easeOutQuart",
+          easing: "easeOutElastic",
+          navType: "block",
+          childrenElementType: "div",
+          arrows: true,
+          autoPlay: true,
+          autoPlayDuration: 2000,
+          keyboardOnAlways: true,
+          hidePrevious: false,
+        });
+      });
+    </script>
+  </body>
+</html>
