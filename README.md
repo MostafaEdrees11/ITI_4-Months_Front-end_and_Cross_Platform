@@ -44,3 +44,4 @@
 | **Day 38** | JQuery | Recap JQuery Day01 | 💻 Online | 23-Nov-2025 |
 | **Day 39** | JQuery | Recap JQuery | ❎❎❎ | 24-Nov-2025 |
 | **Day 40** | JQuery | Recap JQuery Day02 | 💻 Online | 26-Nov-2025 |
+| **Day 41** | Source Control | Git | 🏫 Offline | 30-Nov-2025 |
