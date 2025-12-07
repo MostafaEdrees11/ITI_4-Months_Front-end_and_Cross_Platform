@@ -48,4 +48,5 @@
 | **Day 42** | Source Control | GitHub | 🏫 Offline | 1-Dec-2025 |
 | **Day 43** | Design Patterns | DP | 💻 Online | 2-Dec-2025 |
 | **Day 44** | Design Patterns | DP | 💻 Online | 3-Dec-2025 |
-| **Day 45** | Node JS | Node JS | 💻 Online | 4-Dec-2025 |
+| **Day 45** | Node JS | Node JS | 💻 Online | 6-Dec-2025 |
+| **Day 46** | Node JS | Node JS | 💻 Online | 7-Dec-2025 |
