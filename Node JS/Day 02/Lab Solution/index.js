@@ -76,6 +76,16 @@ server.put('/updateProduct/:id', updateProductValidator, (req, res) => {
     res.status(200).json({msg: "Product updated successfully", product: products[productIndex]})
 });
 
+
+server.delete('/deleteProduct/:id', (req, res) => {
+    let productId = +req.params.id;
+    let productIndex = products.findIndex((product) => product.id === productId);
+    if(productIndex === -1) return res.status(404).json({ msg: "Product not found." });
+
+    products.splice(productIndex, 1);
+    res.status(200).json({msg: "Product deleted successfully"});
+});
+
 server.listen(portNum, () => {
     console.log(`server connected on portNum: ${portNum}`);
 })
