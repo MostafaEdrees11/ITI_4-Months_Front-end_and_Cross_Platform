@@ -50,3 +50,4 @@
 | **Day 44** | Design Patterns | DP | 💻 Online | 3-Dec-2025 |
 | **Day 45** | Node JS | Node JS | 💻 Online | 6-Dec-2025 |
 | **Day 46** | Node JS | Node JS | 💻 Online | 7-Dec-2025 |
+| **Day 47** | Presentation Skills | Presentation Skills | 💻 Online | 9-Dec-2025 |
