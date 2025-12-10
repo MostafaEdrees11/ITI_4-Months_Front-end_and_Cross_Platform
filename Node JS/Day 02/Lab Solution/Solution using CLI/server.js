@@ -1,16 +1,40 @@
+import express from 'express';
+import { body, validationResult } from "express-validator";
 
-const express = require('express');
-const { body, validationResult } = require("express-validator");
+import fileSystem from 'fs';
+const filePath = './products.json';
+let products = [];
 
-let products = require('./products.json');
+
+// import products from './products.json' assert { type: 'json' };
 
 const server = express();
 const portNum = 8011;
 
 server.use(express.json());
 
+function initProducts(req, res, next) {
+    if(fileSystem.existsSync(filePath)) {
+        fileSystem.readFile(filePath, 'utf-8', (err, data) => {
+            products = JSON.parse(data);
+            next();
+        })
+    } else {
+        fileSystem.writeFile(filePath, '[]', (err) => {
+            if(err) return res.status(400).json({ msg: "Error in writting on the file." });
+            products = [];
+            next();
+        })
+    }
+}
+server.use(initProducts);
+
 server.get('/', (req, res) => {
-    res.status(200).send(products);
+    if(products.length > 0) {
+        res.status(200).send(products);
+    } else {
+        res.status(400).send({msg: 'No product yet.'});
+    }
 });
 
 
@@ -38,7 +62,10 @@ server.post('/addProduct', addNewProductValidator, (req, res) => {
     let newProduct = req.body;
     newProduct.id = products.length + 1;
     products.push(newProduct);
-    res.status(200).json({msg: "Product added successfully", newProduct});
+    fileSystem.writeFile(filePath, JSON.stringify(products), (err) => {
+        if(err) return res.status(400).json({ msg: "Error in writting on the file." });
+        res.status(200).json({msg: "Product added successfully", newProduct});
+    });
 });
 
 
@@ -72,7 +99,11 @@ server.put('/updateProduct/:id', updateProductValidator, (req, res) => {
     price = price??products[productIndex].price;
     
     products[productIndex] = {id: productId, name, price};
-    res.status(200).json({msg: "Product updated successfully", product: products[productIndex]})
+    fileSystem.writeFile(filePath, JSON.stringify(products), (err) => {
+        if(err) return res.status(400).json({ msg: "Error in writting on the file." });
+        res.status(200).json({msg: "Product updated successfully", product: products[productIndex]})
+    });
+    
 });
 
 
@@ -82,7 +113,10 @@ server.delete('/deleteProduct/:id', (req, res) => {
     if(productIndex === -1) return res.status(404).json({ msg: "Product not found." });
 
     products.splice(productIndex, 1);
-    res.status(200).json({msg: "Product deleted successfully"});
+    fileSystem.writeFile(filePath, JSON.stringify(products), (err) => {
+        if(err) return res.status(400).json({ msg: "Error in writting on the file." });
+        res.status(200).json({msg: "Product deleted successfully"});
+    });
 });
 
 server.listen(portNum, () => {
