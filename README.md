@@ -52,3 +52,7 @@
 | **Day 46** | Node JS | Node JS | 💻 Online | 7-Dec-2025 |
 | **Day 47** | Presentation Skills | Presentation Skills | 💻 Online | 9-Dec-2025 |
 | **Day 48** | Freelancing | Freelancing | 💻 Online | 15-Dec-2025 |
+| **Day 49** | Freelancing | Freelancing | 👨‍🏫 Self-Study | 16-Dec-2025 |
+| **Day 50** | Freelancing | Freelancing | 👨‍🏫 Self-Study | 17-Dec-2025 |
+| **Day 51** | Secure Coding | workshop | 💻 Online | 18-Dec-2025 |
+| **Day 52** | Freelancing | Freelancing | 💻 Online | 20-Dec-2025 |
