@@ -56,3 +56,4 @@
 | **Day 50** | Freelancing | Freelancing | 👨‍🏫 Self-Study | 17-Dec-2025 |
 | **Day 51** | Secure Coding | workshop | 💻 Online | 18-Dec-2025 |
 | **Day 52** | Freelancing | Freelancing | 💻 Online | 20-Dec-2025 |
+| **Day 52** | Presentation Skills | Presentation Skills | 💻 Online | 21-Dec-2025 |
