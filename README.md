@@ -58,3 +58,4 @@
 | **Day 52** | Freelancing | Freelancing | 💻 Online | 20-Dec-2025 |
 | **Day 53** | Presentation Skills | Presentation Skills | 💻 Online | 21-Dec-2025 |
 | **Day 54** | Presentation Skills | Presentation Skills | 💻 Online | 22-Dec-2025 |
+| **Day 55** | Dart | Basics | 🏫 Offline | 23-Dec-2025 |
