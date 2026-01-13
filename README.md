@@ -59,3 +59,12 @@
 | **Day 53** | Presentation Skills | Presentation Skills | 💻 Online | 21-Dec-2025 |
 | **Day 54** | Presentation Skills | Presentation Skills | 💻 Online | 22-Dec-2025 |
 | **Day 55** | Dart | Basics | 🏫 Offline | 23-Dec-2025 |
+| **Day 56** | Dart | OOP | 🏫 Offline | 24-Dec-2025 |
+| **Day 57** | Flutter | Widgets | 🏫 Offline | 25-Dec-2025 |
+| **Day 58** | Flutter | Widgets & UI | 🏫 Offline | 28-Dec-2025 |
+| **Day 59** | Flutter | ⬆⬆ | 🏫 Offline | 29-Dec-2025 |
+| **Day 60** | Flutter | ⬆⬆ | 🏫 Offline | 30-Dec-2025 |
+| **Day 61** | Flutter | APIs | 🏫 Offline | 31-Dec-2025 |
+| **Day 62** | Flutter | State Management (Cubit) | 🏫 Offline | 1-Jan-2026 |
+| **Day 63** | Firebase | Firebase Authentication | 🏫 Offline | 4-Jan-2026 |
+| **Day 64** | Firebase | Firebase Store | 🏫 Offline | 5-Jan-2026 |
