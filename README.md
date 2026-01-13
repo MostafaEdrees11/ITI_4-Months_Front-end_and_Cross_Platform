@@ -71,3 +71,6 @@
 | **Day 65** | UI/UX Workshop | UI/UX Workshop | 💻 Online | 6-Jan-2026 |
 | **Day 66** | - | - | ❎❎❎ | 7-Jan-2026 |
 | **Day 67** | UI/UX Workshop | UI/UX Workshop | 💻 Online | 8-Jan-2026 |
+| **Day 68** | Flutter | Flutter Final Project | 👨‍🏫 Self | 9-Jan-2026 |
+| **Day 69** | Flutter | Flutter Final Project | 👨‍🏫 Self | 10-Jan-2026 |
+| **Day 70** | Flutter | Flutter Final Project | 👨‍🏫 Self | 11-Jan-2026 |
