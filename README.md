@@ -68,3 +68,6 @@
 | **Day 62** | Flutter | State Management (Cubit) | 🏫 Offline | 1-Jan-2026 |
 | **Day 63** | Firebase | Firebase Authentication | 🏫 Offline | 4-Jan-2026 |
 | **Day 64** | Firebase | Firebase Store | 🏫 Offline | 5-Jan-2026 |
+| **Day 65** | UI/UX Workshop | UI/UX Workshop | 💻 Online | 6-Jan-2026 |
+| **Day 66** | - | - | ❎❎❎ | 7-Jan-2026 |
+| **Day 67** | UI/UX Workshop | UI/UX Workshop | 💻 Online | 8-Jan-2026 |
