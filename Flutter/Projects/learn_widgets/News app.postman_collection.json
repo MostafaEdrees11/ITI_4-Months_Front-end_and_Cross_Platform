@@ -1,0 +1,91 @@
+{
+	"info": {
+		"_postman_id": "efe0cf66-28ce-40cf-af1c-2121ad8eec78",
+		"name": "News app",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "50865475"
+	},
+	"item": [
+		{
+			"name": "search",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "country",
+							"value": "us",
+							"type": "text"
+						},
+						{
+							"key": "apiKey",
+							"value": "5c5aff587e9e4ff0aeb60bc6cf5a7d2f",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://newsapi.org/v2/everything?q=everything&apiKey=0b5c8b08d3574e0594e70a2112049440",
+					"protocol": "https",
+					"host": [
+						"newsapi",
+						"org"
+					],
+					"path": [
+						"v2",
+						"everything"
+					],
+					"query": [
+						{
+							"key": "q",
+							"value": "everything"
+						},
+						{
+							"key": "apiKey",
+							"value": "0b5c8b08d3574e0594e70a2112049440"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "home",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://newsapi.org/v2/top-headlines?country=us&apiKey=6a7cea1520b843238244c252b0539ebc",
+					"protocol": "https",
+					"host": [
+						"newsapi",
+						"org"
+					],
+					"path": [
+						"v2",
+						"top-headlines"
+					],
+					"query": [
+						{
+							"key": "country",
+							"value": "us"
+						},
+						{
+							"key": "apiKey",
+							"value": "6a7cea1520b843238244c252b0539ebc"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
