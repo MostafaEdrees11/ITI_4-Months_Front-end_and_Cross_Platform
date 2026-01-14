@@ -76,3 +76,4 @@
 | **Day 70** | Flutter | Flutter Final Project | 👨‍🏫 Self | 11-Jan-2026 |
 | **Day 71** | Interviewing Skills | Interviewing Skills | 💻 Online | 12-Jan-2026 |
 | **Day 72** | Interviewing Skills | Interviewing Skills | 💻 Online | 13-Jan-2026 |
+| **Day 73** | Interviewing Skills | Interviewing Skills | 💻 Online | 14-Jan-2026 |
