@@ -77,3 +77,4 @@
 | **Day 71** | Interviewing Skills | Interviewing Skills | 💻 Online | 12-Jan-2026 |
 | **Day 72** | Interviewing Skills | Interviewing Skills | 💻 Online | 13-Jan-2026 |
 | **Day 73** | Interviewing Skills | Interviewing Skills | 💻 Online | 14-Jan-2026 |
+| **Day 74** | React | Intro to React | 💻 Online | 16-Jan-2026 |
