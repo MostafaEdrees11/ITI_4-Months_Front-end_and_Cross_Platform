@@ -79,3 +79,4 @@
 | **Day 73** | Interviewing Skills | Interviewing Skills | 💻 Online | 14-Jan-2026 |
 | **Day 74** | React | Intro to React | 💻 Online | 16-Jan-2026 |
 | **Day 75** | React | React Hooks (setState) | 💻 Online | 17-Jan-2026 |
+| **Day 76** | React | React Routing & API Integration | 💻 Online | 19-Jan-2026 |
