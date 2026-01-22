@@ -81,3 +81,4 @@
 | **Day 75** | React | React Hooks (setState) | 💻 Online | 17-Jan-2026 |
 | **Day 76** | React | React Routing & API Integration | 💻 Online | 19-Jan-2026 |
 | **Day 77** | React | React State Management (Redux) | 💻 Online | 20-Jan-2026 |
+| **Day 78** | React | Redux Thunk & Context & Form Validation| 💻 Online | 21-Jan-2026 |
