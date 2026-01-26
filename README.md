@@ -84,3 +84,4 @@
 | **Day 78** | React | Redux Thunk & Context & Form Validation| 💻 Online | 21-Jan-2026 |
 | **Day 79** | React | Lazy Loading & Custom Hocks & Localization & .env & Deploy | 💻 Online | 22-Jan-2026 |
 | **Day 80** | Material UI | Intro to Material UI | 💻 Online | 25-Jan-2026 |
+| **Day 81** | Material UI | Take More| 💻 Online | 26-Jan-2026 |
