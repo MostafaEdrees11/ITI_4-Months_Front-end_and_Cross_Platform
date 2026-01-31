@@ -86,3 +86,5 @@
 | **Day 80** | Material UI | Intro to Material UI | 💻 Online | 25-Jan-2026 |
 | **Day 81** | Material UI | Take More| 💻 Online | 26-Jan-2026 |
 | **Day 82** | Unit Testing | Testing Native JS | 💻 Online | 27-Jan-2026 |
+| **Day 83** | Unit Testing | Testing React Apps | 💻 Online | 28-Jan-2026 |
+| **Day 84** | JS Packaging & Bundling | Intro to JS Packaging & bundling tools | 💻 Online | 31-Jan-2026 |
