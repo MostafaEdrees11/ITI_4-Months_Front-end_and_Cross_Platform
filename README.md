@@ -89,3 +89,4 @@
 | **Day 83** | Unit Testing | Testing React Apps | 💻 Online | 28-Jan-2026 |
 | **Day 84** | JS Packaging & Bundling | Intro to JS Packaging & bundling tools | 💻 Online | 31-Jan-2026 |
 | **Day 85** | AI Powered Coding Assistant tools | Intro to Gen AI & Pompt Engineering | 💻 Online | 5-Feb-2026 |
+| **Day 86** | AI Powered Coding Assistant tools | Vibe Coding & AI models | 💻 Online | 7-Feb-2026 |
