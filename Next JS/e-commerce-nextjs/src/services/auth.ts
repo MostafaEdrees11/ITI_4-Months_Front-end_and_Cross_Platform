@@ -1,0 +1,31 @@
+import NextAuth from "next-auth";
+import GoogleProvider from "next-auth/providers/google";
+import FacebookProvider from "next-auth/providers/facebook";
+
+const authconfig = {
+  providers: [
+    GoogleProvider({
+      clientId: process.env.AUTH_GOOGLE_CLIENT_ID as string,
+      clientSecret: process.env.AUTH_GOOGLE_CLIENT_SECRET as string,
+    }),
+    FacebookProvider({
+      clientId: process.env.AUTH_FACEBOOK_CLIENT_ID as string,
+      clientSecret: process.env.AUTH_FACEBOOK_CLIENT_SECRET as string,
+    }),
+  ],
+  secret: process.env.NEXT_AUTH_SECRET,
+  callbacks: {
+    authorized: async ({ auth, request }) => {
+      return !!auth?.user;
+    },
+  },
+  pages: {
+    signIn: "/signin",
+  },
+};
+
+export const {
+  auth,
+  signIn,
+  handlers: { GET, POST },
+} = NextAuth(authconfig);
